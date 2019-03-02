@@ -567,7 +567,6 @@
 <rectangle x1="28.956" y1="-20.574" x2="29.464" y2="-20.066" layer="51" rot="R270"/>
 <rectangle x1="31.496" y1="-23.114" x2="32.004" y2="-22.606" layer="51" rot="R270"/>
 <rectangle x1="28.956" y1="-23.114" x2="29.464" y2="-22.606" layer="51" rot="R270"/>
-<text x="-8.89" y="7.62" size="1.27" layer="21">sprawdzić rozmieszczenie</text>
 </package>
 </packages>
 <symbols>
@@ -7253,7 +7252,12 @@ uart@3.3V</text>
 <segment>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
 <pinref part="J6" gate="-1" pin="S"/>
-<wire x1="38.1" y1="88.9" x2="53.34" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="88.9" x2="48.26" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="J6" gate="-2" pin="S"/>
+<wire x1="48.26" y1="88.9" x2="53.34" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="86.36" x2="48.26" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="86.36" x2="48.26" y2="88.9" width="0.1524" layer="91"/>
+<junction x="48.26" y="88.9"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -7305,9 +7309,6 @@ uart@3.3V</text>
 <segment>
 <wire x1="38.1" y1="86.36" x2="40.64" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="SUPPLY14" gate="+5V" pin="+5V"/>
-<pinref part="J6" gate="-2" pin="S"/>
-<wire x1="40.64" y1="86.36" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
-<junction x="40.64" y="86.36"/>
 <wire x1="40.64" y1="86.36" x2="40.64" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="J6" gate="-3" pin="S"/>
 <wire x1="40.64" y1="83.82" x2="53.34" y2="83.82" width="0.1524" layer="91"/>

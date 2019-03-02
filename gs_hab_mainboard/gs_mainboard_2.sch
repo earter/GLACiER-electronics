@@ -567,7 +567,6 @@
 <rectangle x1="28.956" y1="-20.574" x2="29.464" y2="-20.066" layer="51" rot="R270"/>
 <rectangle x1="31.496" y1="-23.114" x2="32.004" y2="-22.606" layer="51" rot="R270"/>
 <rectangle x1="28.956" y1="-23.114" x2="29.464" y2="-22.606" layer="51" rot="R270"/>
-<text x="-8.89" y="7.62" size="1.27" layer="21">sprawdzić rozmieszczenie</text>
 </package>
 </packages>
 <symbols>
