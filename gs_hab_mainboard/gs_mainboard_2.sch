@@ -9003,7 +9003,7 @@ Switches electronic signals</description>
 <part name="SUPPLY26" library="supply2" deviceset="VEE" device=""/>
 <part name="J6" library="EP_molex_6410_7395" deviceset="22-?-05" device="05-7058" value="LF Comm"/>
 <part name="J7" library="EP_molex_6410_7395" deviceset="22-?-05" device="05-7058" value="HF Comm"/>
-<part name="J8" library="EP_molex_6410_7395" deviceset="22-?-07" device="05-7078" value="Weather stat."/>
+<part name="J8" library="EP_molex_6410_7395" deviceset="22-?-07" device="05-7078" value="Weather st."/>
 <part name="J9" library="EP_molex_6410_7395" deviceset="22-?-03" device="05-7038" value="Ext 5V"/>
 <part name="J2" library="EP_molex_6410_7395" deviceset="22-?-03" device="05-7038" value="Storm Det"/>
 </parts>
