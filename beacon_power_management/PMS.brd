@@ -14,8 +14,8 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -147,7 +147,7 @@
 <wire x1="76.25" y1="13.75" x2="76.25" y2="112.25" width="0" layer="20"/>
 <wire x1="76.25" y1="112.25" x2="20.5" y2="112.25" width="0" layer="20"/>
 <wire x1="20.5" y1="112.25" x2="20.5" y2="13.75" width="0" layer="20"/>
-<text x="34.5" y="70" size="1.016" layer="25" rot="MR0">+</text>
+<text x="35.41" y="71.33" size="1.016" layer="26" rot="MR270">+</text>
 <wire x1="76.25" y1="13.75" x2="20.5" y2="13.75" width="0" layer="20"/>
 <text x="33.23" y="15.008" size="1.27" layer="25" font="vector" ratio="15">PMS Shield
 IGLUNA Mar'19

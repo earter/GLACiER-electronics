@@ -9034,21 +9034,24 @@ Switches electronic signals</description>
 SPI2 (LF)(ADC)
 SPI2  (storm detector)(ADC)
 SPI3 (weather station)</text>
-<text x="129.54" y="165.1" size="1.778" layer="91">na PCB dodac mocowanie kabla usb</text>
-<text x="175.26" y="45.72" size="1.778" layer="91">zasilanie z 5V, ale piny ogolnie jest na 3,3V</text>
-<text x="-43.18" y="177.8" size="1.778" layer="91">Storm detector = Analog 0..9V</text>
+<text x="-139.7" y="152.4" size="1.778" layer="91">V_storm = analog 0..9V</text>
 <wire x1="7.62" y1="149.86" x2="7.62" y2="50.8" width="0.1524" layer="90" style="dashdot"/>
 <wire x1="10.16" y1="149.86" x2="10.16" y2="50.8" width="0.1524" layer="90" style="dashdot"/>
-<text x="83.82" y="157.48" size="3.81" layer="91">wątpliwości co do odbioru radia?</text>
 <wire x1="7.62" y1="30.48" x2="7.62" y2="-7.62" width="0.1524" layer="90" style="dashdot"/>
 <wire x1="10.16" y1="30.48" x2="10.16" y2="-7.62" width="0.1524" layer="90" style="dashdot"/>
+<text x="157.48" y="71.12" size="1.778" layer="90">supply@5V 
+uart@3.3V</text>
+<text x="-109.22" y="170.18" size="2.54" layer="90">Storm detector and LF receiver</text>
+<text x="-45.72" y="30.48" size="2.54" layer="90">LF transmitter</text>
+<text x="111.76" y="81.28" size="2.54" layer="90">Weather station (IO)</text>
+<text x="157.48" y="81.28" size="2.54" layer="90">HF communication (IO)</text>
 </plain>
 <instances>
 <instance part="SUPPLY3" gate="G$1" x="114.3" y="134.62"/>
 <instance part="SUPPLY6" gate="+5V" x="119.38" y="132.08"/>
 <instance part="SUPPLY18" gate="GND" x="116.84" y="116.84"/>
-<instance part="SUPPLY2" gate="+5V" x="193.04" y="73.66"/>
-<instance part="SUPPLY9" gate="GND" x="193.04" y="53.34"/>
+<instance part="SUPPLY2" gate="+5V" x="175.26" y="73.66"/>
+<instance part="SUPPLY9" gate="GND" x="175.26" y="53.34"/>
 <instance part="D1" gate="G$1" x="-104.14" y="152.4" rot="R90"/>
 <instance part="SUPPLY7" gate="G$1" x="-104.14" y="127"/>
 <instance part="R1" gate="G$1" x="-88.9" y="154.94" rot="R90"/>
@@ -9056,7 +9059,7 @@ SPI3 (weather station)</text>
 <instance part="U13" gate="G$1" x="-48.26" y="119.38"/>
 <instance part="U$14" gate="G$1" x="15.24" y="129.54" rot="MR0"/>
 <instance part="U15" gate="G$1" x="17.78" y="81.28" rot="MR0"/>
-<instance part="C2" gate="G$1" x="-35.56" y="139.7" rot="R90"/>
+<instance part="C2" gate="G$1" x="-35.56" y="147.32" rot="R90"/>
 <instance part="OK1" gate="A" x="7.62" y="66.04" rot="MR0"/>
 <instance part="R27" gate="G$1" x="25.4" y="68.58"/>
 <instance part="R28" gate="G$1" x="-7.62" y="55.88" rot="R90"/>
@@ -9080,7 +9083,7 @@ SPI3 (weather station)</text>
 <instance part="SUPPLY28" gate="G$1" x="-15.24" y="76.2"/>
 <instance part="SUPPLY29" gate="G$1" x="-7.62" y="111.76"/>
 <instance part="SUPPLY30" gate="G$1" x="-10.16" y="139.7"/>
-<instance part="SUPPLY31" gate="G$1" x="-40.64" y="144.78"/>
+<instance part="SUPPLY31" gate="G$1" x="-40.64" y="160.02"/>
 <instance part="SUPPLY32" gate="G$1" x="-45.72" y="165.1"/>
 <instance part="R6" gate="G$1" x="-20.32" y="15.24" rot="MR90"/>
 <instance part="IC2" gate="A" x="-43.18" y="0" rot="MR0"/>
@@ -9089,8 +9092,8 @@ SPI3 (weather station)</text>
 <instance part="SUPPLY33" gate="G$1" x="-104.14" y="86.36"/>
 <instance part="R7" gate="G$1" x="-88.9" y="114.3" rot="R90"/>
 <instance part="R8" gate="G$1" x="-88.9" y="99.06" rot="R90"/>
-<instance part="SUPPLY17" gate="GND" x="139.7" y="45.72"/>
-<instance part="SUPPLY34" gate="+5V" x="137.16" y="71.12"/>
+<instance part="SUPPLY17" gate="GND" x="119.38" y="45.72"/>
+<instance part="SUPPLY34" gate="+5V" x="119.38" y="71.12"/>
 <instance part="Q3" gate="NMOS" x="96.52" y="68.58" rot="R270"/>
 <instance part="SUPPLY37" gate="G$1" x="88.9" y="83.82"/>
 <instance part="SUPPLY38" gate="+5V" x="104.14" y="83.82"/>
@@ -9110,7 +9113,7 @@ SPI3 (weather station)</text>
 <instance part="SUPPLY23" gate="G$1" x="-43.18" y="12.7"/>
 <instance part="SUPPLY4" gate="G$1" x="-93.98" y="35.56"/>
 <instance part="U$2" gate="G$1" x="93.98" y="127"/>
-<instance part="U$2" gate="G$2" x="215.9" y="124.46"/>
+<instance part="U$2" gate="G$2" x="180.34" y="124.46"/>
 <instance part="R17" gate="G$1" x="88.9" y="71.12" rot="R90"/>
 <instance part="R9" gate="G$1" x="104.14" y="71.12" rot="R90"/>
 <instance part="R10" gate="G$1" x="88.9" y="45.72" rot="R90"/>
@@ -9119,66 +9122,66 @@ SPI3 (weather station)</text>
 <instance part="R13" gate="G$1" x="104.14" y="17.78" rot="R90"/>
 <instance part="R14" gate="G$1" x="88.9" y="-10.16" rot="R90"/>
 <instance part="R15" gate="G$1" x="104.14" y="-10.16" rot="R90"/>
-<instance part="JP1" gate="G$1" x="139.7" y="127"/>
-<instance part="SUPPLY24" gate="GND" x="147.32" y="142.24" rot="R270"/>
-<instance part="SUPPLY25" gate="+5V" x="147.32" y="139.7" rot="R90"/>
+<instance part="JP1" gate="G$1" x="132.08" y="127"/>
+<instance part="SUPPLY24" gate="GND" x="144.78" y="167.64" rot="R270"/>
+<instance part="SUPPLY25" gate="+5V" x="144.78" y="165.1" rot="R90"/>
 <instance part="SUPPLY26" gate="G$1" x="-93.98" y="50.8"/>
 <instance part="J6" gate="-1" x="-86.36" y="48.26"/>
 <instance part="J6" gate="-2" x="-86.36" y="45.72"/>
 <instance part="J6" gate="-3" x="-86.36" y="43.18"/>
 <instance part="J6" gate="-4" x="-86.36" y="40.64"/>
 <instance part="J6" gate="-5" x="-86.36" y="38.1"/>
-<instance part="J7" gate="-1" x="200.66" y="68.58"/>
-<instance part="J7" gate="-2" x="200.66" y="66.04"/>
-<instance part="J7" gate="-3" x="200.66" y="63.5"/>
-<instance part="J7" gate="-4" x="200.66" y="60.96"/>
-<instance part="J7" gate="-5" x="200.66" y="58.42"/>
-<instance part="J9" gate="-1" x="162.56" y="144.78"/>
-<instance part="J9" gate="-2" x="162.56" y="142.24"/>
-<instance part="J9" gate="-3" x="162.56" y="139.7"/>
+<instance part="J7" gate="-1" x="182.88" y="68.58"/>
+<instance part="J7" gate="-2" x="182.88" y="66.04"/>
+<instance part="J7" gate="-3" x="182.88" y="63.5"/>
+<instance part="J7" gate="-4" x="182.88" y="60.96"/>
+<instance part="J7" gate="-5" x="182.88" y="58.42"/>
+<instance part="J9" gate="-1" x="160.02" y="170.18"/>
+<instance part="J9" gate="-2" x="160.02" y="167.64"/>
+<instance part="J9" gate="-3" x="160.02" y="165.1"/>
 <instance part="J2" gate="-1" x="-139.7" y="139.7"/>
 <instance part="J2" gate="-2" x="-139.7" y="137.16"/>
 <instance part="J2" gate="-3" x="-139.7" y="134.62"/>
-<instance part="J1" gate="-1" x="147.32" y="68.58"/>
-<instance part="J1" gate="-2" x="147.32" y="66.04"/>
-<instance part="J1" gate="-3" x="147.32" y="63.5"/>
-<instance part="J1" gate="-4" x="147.32" y="60.96"/>
-<instance part="J1" gate="-5" x="147.32" y="58.42"/>
-<instance part="J1" gate="-6" x="147.32" y="55.88"/>
-<instance part="J1" gate="-7" x="147.32" y="53.34"/>
-<instance part="J1" gate="-8" x="147.32" y="50.8"/>
+<instance part="J1" gate="-1" x="127" y="68.58"/>
+<instance part="J1" gate="-2" x="127" y="66.04"/>
+<instance part="J1" gate="-3" x="127" y="63.5"/>
+<instance part="J1" gate="-4" x="127" y="60.96"/>
+<instance part="J1" gate="-5" x="127" y="58.42"/>
+<instance part="J1" gate="-6" x="127" y="55.88"/>
+<instance part="J1" gate="-7" x="127" y="53.34"/>
+<instance part="J1" gate="-8" x="127" y="50.8"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="USART1_TX" class="0">
 <segment>
-<label x="198.12" y="121.92" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="198.12" y1="121.92" x2="200.66" y2="121.92" width="0.1524" layer="91"/>
+<label x="162.56" y="121.92" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="162.56" y1="121.92" x2="165.1" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$2" pin="PA9@1"/>
 </segment>
 <segment>
-<label x="195.58" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="177.8" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="J7" gate="-3" pin="S"/>
-<wire x1="195.58" y1="63.5" x2="198.12" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="63.5" x2="180.34" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USART1_RX" class="0">
 <segment>
-<label x="198.12" y="106.68" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="200.66" y1="106.68" x2="198.12" y2="106.68" width="0.1524" layer="91"/>
+<label x="162.56" y="106.68" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="165.1" y1="106.68" x2="162.56" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$2" pin="PA10@1"/>
 </segment>
 <segment>
-<label x="195.58" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="177.8" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="J7" gate="-2" pin="S"/>
-<wire x1="195.58" y1="66.04" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="66.04" x2="180.34" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPI2_SCK" class="0">
 <segment>
-<wire x1="198.12" y1="116.84" x2="200.66" y2="116.84" width="0.1524" layer="91"/>
-<label x="198.12" y="116.84" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="162.56" y1="116.84" x2="165.1" y2="116.84" width="0.1524" layer="91"/>
+<label x="162.56" y="116.84" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$2" gate="G$2" pin="PB10@1"/>
 </segment>
 <segment>
@@ -9201,12 +9204,12 @@ SPI3 (weather station)</text>
 <segment>
 <pinref part="SUPPLY9" gate="GND" pin="GND"/>
 <pinref part="J7" gate="-4" pin="S"/>
-<wire x1="193.04" y1="60.96" x2="193.04" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="58.42" x2="193.04" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="60.96" x2="198.12" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="60.96" x2="175.26" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="58.42" x2="175.26" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="60.96" x2="180.34" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="J7" gate="-5" pin="S"/>
-<wire x1="198.12" y1="58.42" x2="193.04" y2="58.42" width="0.1524" layer="91"/>
-<junction x="193.04" y="58.42"/>
+<wire x1="180.34" y1="58.42" x2="175.26" y2="58.42" width="0.1524" layer="91"/>
+<junction x="175.26" y="58.42"/>
 </segment>
 <segment>
 <pinref part="U$14" gate="G$1" pin="V-IN"/>
@@ -9232,27 +9235,27 @@ SPI3 (weather station)</text>
 </segment>
 <segment>
 <pinref part="SUPPLY17" gate="GND" pin="GND"/>
-<wire x1="139.7" y1="48.26" x2="139.7" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="50.8" x2="139.7" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="53.34" x2="139.7" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="48.26" x2="119.38" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="50.8" x2="119.38" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="53.34" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="J1" gate="-6" pin="S"/>
-<wire x1="139.7" y1="55.88" x2="144.78" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="55.88" x2="124.46" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="J1" gate="-7" pin="S"/>
-<wire x1="139.7" y1="53.34" x2="144.78" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="53.34" x2="124.46" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="J1" gate="-8" pin="S"/>
-<wire x1="144.78" y1="50.8" x2="139.7" y2="50.8" width="0.1524" layer="91"/>
-<junction x="139.7" y="50.8"/>
-<junction x="139.7" y="53.34"/>
+<wire x1="124.46" y1="50.8" x2="119.38" y2="50.8" width="0.1524" layer="91"/>
+<junction x="119.38" y="50.8"/>
+<junction x="119.38" y="53.34"/>
 </segment>
 <segment>
 <pinref part="SUPPLY24" gate="GND" pin="GND"/>
-<wire x1="149.86" y1="142.24" x2="152.4" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="142.24" x2="152.4" y2="144.78" width="0.1524" layer="91"/>
-<junction x="152.4" y="142.24"/>
+<wire x1="147.32" y1="167.64" x2="149.86" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="167.64" x2="149.86" y2="170.18" width="0.1524" layer="91"/>
+<junction x="149.86" y="167.64"/>
 <pinref part="J9" gate="-1" pin="S"/>
-<wire x1="152.4" y1="144.78" x2="160.02" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="170.18" x2="157.48" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="J9" gate="-2" pin="S"/>
-<wire x1="152.4" y1="142.24" x2="160.02" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="167.64" x2="157.48" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -9262,14 +9265,14 @@ SPI3 (weather station)</text>
 <wire x1="119.38" y1="127" x2="119.38" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="5V@1"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="127" x2="137.16" y2="127" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="127" x2="129.54" y2="127" width="0.1524" layer="91"/>
 <junction x="119.38" y="127"/>
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="+5V" pin="+5V"/>
-<wire x1="193.04" y1="68.58" x2="193.04" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="68.58" x2="175.26" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="J7" gate="-1" pin="S"/>
-<wire x1="193.04" y1="68.58" x2="198.12" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="68.58" x2="180.34" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$14" gate="G$1" pin="V+IN"/>
@@ -9290,7 +9293,7 @@ SPI3 (weather station)</text>
 <segment>
 <pinref part="SUPPLY34" gate="+5V" pin="+5V"/>
 <pinref part="J1" gate="-1" pin="S"/>
-<wire x1="137.16" y1="68.58" x2="144.78" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="68.58" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY38" gate="+5V" pin="+5V"/>
@@ -9315,7 +9318,7 @@ SPI3 (weather station)</text>
 <segment>
 <pinref part="SUPPLY25" gate="+5V" pin="+5V"/>
 <pinref part="J9" gate="-3" pin="S"/>
-<wire x1="149.86" y1="139.7" x2="160.02" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="165.1" x2="157.48" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -9406,7 +9409,7 @@ SPI3 (weather station)</text>
 <wire x1="-45.72" y1="137.16" x2="-45.72" y2="134.62" width="0.1524" layer="91"/>
 <junction x="-38.1" y="137.16"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="-30.48" y1="137.16" x2="-30.48" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="137.16" x2="-30.48" y2="147.32" width="0.1524" layer="91"/>
 <junction x="-30.48" y="137.16"/>
 <pinref part="SUPPLY16" gate="G$1" pin="GND1"/>
 <pinref part="IC1" gate="G$1" pin="A"/>
@@ -9644,8 +9647,8 @@ SPI3 (weather station)</text>
 <label x="35.56" y="7.62" size="1.778" layer="95" rot="MR180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="233.68" y1="144.78" x2="231.14" y2="144.78" width="0.1524" layer="91"/>
-<label x="233.68" y="144.78" size="1.778" layer="95" xref="yes"/>
+<wire x1="198.12" y1="144.78" x2="195.58" y2="144.78" width="0.1524" layer="91"/>
+<label x="198.12" y="144.78" size="1.778" layer="95" xref="yes"/>
 <pinref part="U$2" gate="G$2" pin="PC6"/>
 </segment>
 </net>
@@ -9657,11 +9660,11 @@ SPI3 (weather station)</text>
 </segment>
 <segment>
 <pinref part="U13" gate="G$1" pin="VDD"/>
-<wire x1="-40.64" y1="134.62" x2="-40.64" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="139.7" x2="-40.64" y2="142.24" width="0.1524" layer="91"/>
-<junction x="-40.64" y="139.7"/>
+<wire x1="-40.64" y1="134.62" x2="-40.64" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="147.32" x2="-40.64" y2="157.48" width="0.1524" layer="91"/>
+<junction x="-40.64" y="147.32"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="-38.1" y1="139.7" x2="-40.64" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="147.32" x2="-40.64" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="SUPPLY31" gate="G$1" pin="VEE"/>
 </segment>
 <segment>
@@ -9708,8 +9711,8 @@ SPI3 (weather station)</text>
 </net>
 <net name="SPI3_SCK" class="0">
 <segment>
-<wire x1="233.68" y1="129.54" x2="231.14" y2="129.54" width="0.1524" layer="91"/>
-<label x="233.68" y="129.54" size="1.778" layer="95" xref="yes"/>
+<wire x1="198.12" y1="129.54" x2="195.58" y2="129.54" width="0.1524" layer="91"/>
+<label x="198.12" y="129.54" size="1.778" layer="95" xref="yes"/>
 <pinref part="U$2" gate="G$2" pin="PB12"/>
 </segment>
 <segment>
@@ -9755,9 +9758,9 @@ SPI3 (weather station)</text>
 <segment>
 <pinref part="Q1" gate="NMOS" pin="D"/>
 <wire x1="101.6" y1="40.64" x2="104.14" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="40.64" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="40.64" x2="119.38" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="63.5" x2="144.78" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="40.64" x2="111.76" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="40.64" x2="111.76" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="63.5" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 <junction x="104.14" y="40.64"/>
 <pinref part="J1" gate="-3" pin="S"/>
@@ -9766,7 +9769,7 @@ SPI3 (weather station)</text>
 <net name="SPI3_SS_EXT" class="0">
 <segment>
 <pinref part="Q3" gate="NMOS" pin="D"/>
-<wire x1="144.78" y1="66.04" x2="104.14" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="66.04" x2="104.14" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="66.04" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
 <junction x="104.14" y="66.04"/>
@@ -9775,8 +9778,8 @@ SPI3 (weather station)</text>
 </net>
 <net name="SPI3_SS" class="0">
 <segment>
-<wire x1="198.12" y1="147.32" x2="200.66" y2="147.32" width="0.1524" layer="91"/>
-<label x="198.12" y="147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="162.56" y1="147.32" x2="165.1" y2="147.32" width="0.1524" layer="91"/>
+<label x="162.56" y="147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$2" gate="G$2" pin="PC9"/>
 </segment>
 <segment>
@@ -9792,11 +9795,11 @@ SPI3 (weather station)</text>
 <segment>
 <pinref part="Q4" gate="NMOS" pin="D"/>
 <wire x1="101.6" y1="-15.24" x2="104.14" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="-15.24" x2="129.54" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="58.42" x2="129.54" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="-15.24" x2="116.84" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="58.42" x2="116.84" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <junction x="104.14" y="-15.24"/>
-<wire x1="129.54" y1="58.42" x2="144.78" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="58.42" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="J1" gate="-5" pin="S"/>
 </segment>
 </net>
@@ -9842,19 +9845,19 @@ SPI3 (weather station)</text>
 <net name="E5V" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="129.54" x2="137.16" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="129.54" x2="129.54" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="E5V"/>
-<wire x1="111.76" y1="142.24" x2="132.08" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="142.24" x2="132.08" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="142.24" x2="124.46" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="142.24" x2="124.46" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPI3_MISO_EXT" class="0">
 <segment>
 <pinref part="Q2" gate="NMOS" pin="D"/>
 <wire x1="101.6" y1="12.7" x2="104.14" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="12.7" x2="124.46" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="12.7" x2="124.46" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="60.96" x2="144.78" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="12.7" x2="114.3" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="12.7" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="60.96" x2="124.46" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="1"/>
 <junction x="104.14" y="12.7"/>
 <pinref part="J1" gate="-4" pin="S"/>

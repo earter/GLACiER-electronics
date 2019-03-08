@@ -148,8 +148,8 @@
 <wire x1="70.79" y1="0" x2="70.79" y2="52.06" width="0" layer="20"/>
 <wire x1="70.79" y1="52.06" x2="1.27" y2="52.06" width="0" layer="20"/>
 <wire x1="1.27" y1="52.06" x2="1.27" y2="0" width="0" layer="20"/>
-<text x="11.43" y="33.655" size="1.27" layer="26" font="vector" ratio="15">5V</text>
-<text x="11.43" y="36.195" size="1.27" layer="26" font="vector" ratio="15">E5V</text>
+<text x="11.43" y="33.655" size="1.27" layer="25" font="vector" ratio="15">5V</text>
+<text x="11.43" y="36.195" size="1.27" layer="25" font="vector" ratio="15">E5V</text>
 <text x="57.785" y="41.275" size="1.27" layer="25" font="vector" ratio="15" rot="R270">RX</text>
 <text x="44.45" y="41.275" size="1.27" layer="25" font="vector" ratio="15" rot="R270">RX</text>
 <text x="31.115" y="41.275" size="1.27" layer="25" font="vector" ratio="15" rot="R270">RX</text>
