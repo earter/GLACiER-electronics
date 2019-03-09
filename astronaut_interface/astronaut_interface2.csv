@@ -1,0 +1,18 @@
+"Part";"Value";"Device";"Package";"Description";"MF";"MPN";"OC_FARNELL";"OC_NEWARK";
+"C2";"330nF";"C_0805";"C0805";"NON-POLARIZED CAP";"";"";"";"";
+"C3";"3.3uF Tantalum Solid";"C_1206";"C1206";"NON-POLARIZED CAP";"";"";"";"";
+"IC1";"PCF8591T";"PCF8591T";"SO16W";"I2C-Bus D/A CONVERTER";"";"PCF8591T/2,512";"1826767";"70R6911";
+"J1";"UI";"22-05-7048-04";"7395-04";"CONNECTOR";"";"";"";"";
+"J2";"Display";"22-05-7048-04";"7395-04";"CONNECTOR";"";"";"";"";
+"JP1";"";"PINHD-1X3";"1X03";"PIN HEADER";"";"";"";"";
+"P1";"JT9S-19";"JT9S-19";"JT9S-1P";"Joystick Potentiometer 10k";"";"";"";"";
+"R1";"1k";"R-EU_R0805";"R0805";"RESISTOR, European symbol";"";"";"";"";
+"R2";"1k";"R-EU_R0805";"R0805";"RESISTOR, European symbol";"";"";"";"";
+"R3";"1k";"R-EU_R0805";"R0805";"RESISTOR, European symbol";"";"";"";"";
+"R4";"1k";"R-EU_R0805";"R0805";"RESISTOR, European symbol";"";"";"";"";
+"R5";"470";"R-EU_M0805";"M0805";"RESISTOR, European symbol";"";"";"";"";
+"R6";"470";"R-EU_M0805";"M0805";"RESISTOR, European symbol";"";"";"";"";
+"U1";"TACT-12MM";"TACT-12MM";"TACT-12_THT";"";"";"";"";"";
+"U2";"TACT-12MM";"TACT-12MM";"TACT-12_THT";"";"";"";"";"";
+"U3";"TACT-12MM";"TACT-12MM";"TACT-12_THT";"";"";"";"";"";
+"U4";"TACT-12MM";"TACT-12MM";"TACT-12_THT";"";"";"";"";"";
